@@ -23,7 +23,7 @@ df = pd.read_csv("database/data file/df_train_2003.csv")
 x_data = df.loc[:, "1":"28"]
 y_data = df.loc[:, "0"]
 
-df_test = pd.read_csv("database/data file/df_test_2003.csv")
+df_test = pd.read_csv("database/data file/df_test_2005.csv")
 
 x_test_data = df_test.loc[:, "1":"28"]
 y_test_data = df_test.loc[:, "0"]
